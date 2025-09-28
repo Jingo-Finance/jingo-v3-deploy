@@ -1,0 +1,24 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      deploy-v3:
+        specifier: ^1.0.6
+        version: 1.0.6
+
+packages:
+
+  deploy-v3@1.0.6:
+    resolution: {integrity: sha512-D0e1ovFBrUKniF73AeqIo/uK3LvZh7qmOl8RdR+ZM9n/QOZDgGG6yzHGt56ePFW5BLhV73K/5KP48SfQmCyxfg==}
+    engines: {node: '>=12.18.3'}
+    hasBin: true
+
+snapshots:
+
+  deploy-v3@1.0.6: {}
